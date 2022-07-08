@@ -29,7 +29,7 @@
 }
 
 .gradient-text {
-  background: -webkit-linear-gradient(left, #60c657 30%, #35aee2 60%);
+  background: -webkit-linear-gradient(left, #a93e8a 30%, #35aee2 60%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -49,16 +49,17 @@
 }
 
 .connect-wallet-button {
-  background: -webkit-linear-gradient(left, #60c657, #35aee2);
+  background: -webkit-linear-gradient(left, #cfbc40, #35aee2);
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
 }
 
-.mint-button {
-  background: -webkit-linear-gradient(left, #a200d6, #ff6fdf);
+.mint-button :hover {
+  background: -webkit-linear-gradient(left, #a200d6, #6f9dff);
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
   margin-right: 15px;
+  cursor: pointer;
 }
 
 .opensea-button {
@@ -83,6 +84,9 @@
   height: 35px;
 }
 
+.banner {
+  margin-left:20%;
+}
 .footer-text {
   color: white;
   font-size: 16px;
